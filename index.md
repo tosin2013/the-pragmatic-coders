@@ -1,7 +1,6 @@
 ---
 layout: home
 title: The Pragmatic Coders
-nav_order: 1
 permalink: /
 ---
 

@@ -19,6 +19,9 @@ toc:
   h_min: 1
   h_max: 3
 
+# Use custom TOC from _data/toc.yml
+use_custom_toc: true
+
 # Mermaid diagram settings
 mermaid:
   version: "9.1.3"
@@ -36,6 +39,7 @@ collections:
   chapters:
     output: true
     permalink: /:collection/:path/
+    sort_by: order
 
 # GitBook theme additional settings
 search:
