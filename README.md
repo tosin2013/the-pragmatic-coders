@@ -31,10 +31,10 @@ This site is designed to be deployed on GitHub Pages. To deploy:
 1. Push your changes to the main branch
 2. Go to your repository settings
 3. Under "GitHub Pages", select the main branch as the source
-4. Your site will be published at `https://[username].github.io/[repository-name]/`
+4. Your site will be published at `https://tosin2013.github.io/the-pragmatic-coders`
 
 ## License
 
-© 2025 MiniMax Press. All rights reserved.
+© 2025 Tosin Akinsoho. All rights reserved.
 
 *This is a work of fiction. Names, characters, businesses, places, events, and incidents are either the products of the author's imagination or used in a fictitious manner. Any resemblance to actual persons, living or dead, or actual events is purely coincidental.*

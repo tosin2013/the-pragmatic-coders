@@ -1,19 +1,28 @@
 toc:
   - title: Introduction
     url: /chapters/introduction/
+    source: _chapters/00-introduction.md
   - title: Chapter 1 - First Contact
     url: /chapters/chapter-01/
+    source: _chapters/chapter-01.md
   - title: Chapter 2 - Establishing a Working Relationship
     url: /chapters/chapter-02/
+    source: _chapters/chapter-02.md
   - title: Chapter 3 - The Error Conundrum
     url: /chapters/chapter-03/
+    source: _chapters/chapter-03.md
   - title: Chapter 4 - Architectures of Error
     url: /chapters/chapter-04/
+    source: _chapters/chapter-04.md
   - title: Chapter 5 - The Pragmatic Solution
     url: /chapters/chapter-05/
+    source: _chapters/chapter-05.md
   - title: Chapter 6 - Crisis Point
     url: /chapters/chapter-06/
+    source: _chapters/chapter-06.md
   - title: Chapter 7 - Rebuilding Through Philosophy
     url: /chapters/chapter-07/
+    source: _chapters/chapter-07.md
   - title: Chapter 8 - A New Paradigm
     url: /chapters/chapter-08/
+    source: _chapters/chapter-08.md

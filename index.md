@@ -23,17 +23,38 @@ Beyond being a simple narrative, this book explores the "Architectures of Error"
 
 ## Table of Contents
 
-{% assign sorted_chapters = site.chapters | sort: "nav_order" %}
 <ul>
-{% for chapter in sorted_chapters %}
   <li>
-    <a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a>
+    <a href="/the-pragmatic-coders/chapters/introduction/">Introduction</a>
   </li>
-{% endfor %}
+  <li>
+    <a href="/the-pragmatic-coders/chapters/chapter-01/">Chapter 1 - First Contact</a>
+  </li>
+  <li>
+    <a href="/the-pragmatic-coders/chapters/chapter-02/">Chapter 2 - Establishing a Working Relationship</a>
+  </li>
+  <li>
+    <a href="/the-pragmatic-coders/chapters/chapter-03/">Chapter 3 - The Error Conundrum</a>
+  </li>
+  <li>
+    <a href="/the-pragmatic-coders/chapters/chapter-04/">Chapter 4 - Architectures of Error</a>
+  </li>
+  <li>
+    <a href="/the-pragmatic-coders/chapters/chapter-05/">Chapter 5 - The Pragmatic Solution</a>
+  </li>
+  <li>
+    <a href="/the-pragmatic-coders/chapters/chapter-06/">Chapter 6 - Crisis Point</a>
+  </li>
+  <li>
+    <a href="/the-pragmatic-coders/chapters/chapter-07/">Chapter 7 - Rebuilding Through Philosophy</a>
+  </li>
+  <li>
+    <a href="/the-pragmatic-coders/chapters/chapter-08/">Chapter 8 - A New Paradigm</a>
+  </li>
 </ul>
 
 ---
 
-© 2025 MiniMax Press
+© 2025 Tosin Akinsoho
 
 *This is a work of fiction. Names, characters, businesses, places, events, and incidents are either the products of the author's imagination or used in a fictitious manner. Any resemblance to actual persons, living or dead, or actual events is purely coincidental.*
