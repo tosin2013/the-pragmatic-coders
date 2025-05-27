@@ -1,0 +1,48 @@
+title: The Pragmatic Coders
+description: A Philosophical AI's Journey Through Software Development
+author: MiniMax Press
+baseurl: ""
+url: ""
+github_username: 
+
+# Build settings
+markdown: kramdown
+remote_theme: pmarsceill/just-the-docs
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-mermaid
+
+# Just the Docs theme settings
+search_enabled: true
+heading_anchors: true
+color_scheme: light
+
+# Mermaid diagram settings
+mermaid:
+  version: "9.1.3"
+
+# Aux links for the upper right navigation
+aux_links:
+  "View on GitHub":
+    - "//github.com/username/the-pragmatic-coders"
+
+# Footer content
+footer_content: "© 2025 MiniMax Press. All rights reserved."
+
+# Collections
+collections:
+  chapters:
+    output: true
+    permalink: /:collection/:path/
+    source: _chapters
+
+# Default front matter settings
+defaults:
+  -
+    scope:
+      path: ""
+      type: "chapters"
+    values:
+      layout: "page"
+      nav_order: 1

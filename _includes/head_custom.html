@@ -1,0 +1,13 @@
+<!-- Custom head content -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">
+<script src="https://cdn.jsdelivr.net/npm/mermaid@{{ site.mermaid.version }}/dist/mermaid.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: "default",
+      securityLevel: "loose",
+      flowchart: { useMaxWidth: true }
+    });
+  });
+</script>

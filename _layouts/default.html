@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
+    {% include head_custom.html %}
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      <header class="site-header">
+        <nav class="site-nav">
+          <a href="{{ "/" | absolute_url }}" class="site-title">{{ site.title }}</a>
+          <ul class="nav-links">
+            <li><a href="{{ "/" | absolute_url }}">Home</a></li>
+            <li><a href="{{ "/chapters" | absolute_url }}">All Chapters</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        {{ content }}
+      </main>
+
+      <footer class="site-footer">
+        <p>{{ site.footer_content }}</p>
+      </footer>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/{{ site.mermaid.version }}/mermaid.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        mermaid.initialize({
+          startOnLoad: true,
+          theme: "default",
+          securityLevel: "loose",
+          flowchart: { useMaxWidth: true }
+        });
+      });
+    </script>
+    <script src="{{ "/assets/js/script.js" | relative_url }}"></script>
+  </body>
+</html>
