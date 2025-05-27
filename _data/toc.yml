@@ -35,3 +35,6 @@ toc:
   - title: About the Author
     url: /chapters/about-author/
     source: _chapters/about-author.md
+  - title: References & Further Reading
+    url: /chapters/references/
+    source: _chapters/references.md

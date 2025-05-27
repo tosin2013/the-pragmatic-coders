@@ -12,6 +12,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-relative-links
+  - jekyll-sitemap
 
 # GitBook theme settings
 toc:
