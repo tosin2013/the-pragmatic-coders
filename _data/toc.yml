@@ -28,7 +28,10 @@ toc:
     source: _chapters/chapter-08.md
   - title: Practical Guide - Implementing Methodological Pragmatism
     url: /chapters/practical-guide/
-    source: _chapters/09-practical-guide.md
+    source: _chapters/practical-guide-09.md
   - title: Summoning Sophia - The Complete Prompt
     url: /chapters/summoning-sophia/
-    source: _chapters/10-summoning-sophia.md
+    source: _chapters/summoning-sophia-10.md
+  - title: About the Author
+    url: /chapters/about-author/
+    source: _chapters/about-author.md
