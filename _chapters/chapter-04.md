@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: post
 title: Chapter 4 - Architectures of Error
-nav_order: 5
+chapter: 4
+order: 5
+toc: true
 ---
 
 # Chapter 4: Architectures of Error

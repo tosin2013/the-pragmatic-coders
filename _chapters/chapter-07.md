@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: post
 title: Chapter 7 - Rebuilding Through Philosophy
-nav_order: 8
+chapter: 7
+order: 8
+toc: true
 ---
 
 # Chapter 7: Rebuilding Through Philosophy

@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: post
 title: Chapter 2 - Establishing a Working Relationship
-nav_order: 3
+chapter: 2
+order: 3
+toc: true
 ---
 
 # Chapter 2: Establishing a Working Relationship

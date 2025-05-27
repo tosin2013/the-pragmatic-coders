@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: post
 title: Chapter 1 - First Contact
-nav_order: 2
+chapter: 1
+order: 2
+toc: true
 ---
 
 # Chapter 1: First Contact

@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: post
 title: Chapter 8 - A New Paradigm
-nav_order: 9
+chapter: 8
+order: 9
+toc: true
 ---
 
 # Chapter 8: A New Paradigm

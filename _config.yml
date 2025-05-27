@@ -1,31 +1,32 @@
 title: The Pragmatic Coders
 description: A Philosophical AI's Journey Through Software Development
-author: MiniMax Press
-baseurl: ""
-url: ""
-github_username: 
+author: Tosin Akinsoho
+baseurl: "/the-pragmatic-coders"
+url: "https://tosin2013.github.io"
+github_username: tosin2013
 
 # Build settings
 markdown: kramdown
-remote_theme: pmarsceill/just-the-docs
+remote_theme: sighingnow/jekyll-gitbook
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-mermaid
+  - jekyll-relative-links
 
-# Just the Docs theme settings
-search_enabled: true
-heading_anchors: true
-color_scheme: light
+# GitBook theme settings
+toc:
+  enabled: true
+  h_min: 1
+  h_max: 3
 
 # Mermaid diagram settings
 mermaid:
   version: "9.1.3"
 
-# Aux links for the upper right navigation
-aux_links:
-  "View on GitHub":
-    - "//github.com/username/the-pragmatic-coders"
+# Top navigation bar links
+top_nav_links:
+  - title: GitHub
+    url: https://github.com/tosin2013/the-pragmatic-coders
 
 # Footer content
 footer_content: "© 2025 MiniMax Press. All rights reserved."
@@ -35,7 +36,26 @@ collections:
   chapters:
     output: true
     permalink: /:collection/:path/
-    source: _chapters
+
+# GitBook theme additional settings
+search:
+  enabled: true
+  maxResultLength: 10
+  snippetLength: 100
+
+# Page navigation
+page_nav:
+  prev:
+    content: Previous
+    url: ''
+  next:
+    content: Next
+    url: ''
+
+# Extra features
+extra:
+  toc_levels: 1..3
+  numbered_headings: true
 
 # Default front matter settings
 defaults:
@@ -44,5 +64,11 @@ defaults:
       path: ""
       type: "chapters"
     values:
-      layout: "page"
-      nav_order: 1
+      layout: "post"
+      toc: true
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      toc: true

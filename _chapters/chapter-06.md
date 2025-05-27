@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: post
 title: Chapter 6 - Crisis Point
-nav_order: 7
+chapter: 6
+order: 7
+toc: true
 ---
 
 # Chapter 6: Crisis Point

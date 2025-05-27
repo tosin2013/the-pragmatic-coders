@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: post
 title: Chapter 3 - The Error Conundrum
-nav_order: 4
+chapter: 3
+order: 4
+toc: true
 ---
 
 # Chapter 3: The Error Conundrum

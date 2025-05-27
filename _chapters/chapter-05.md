@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: post
 title: Chapter 5 - The Pragmatic Solution
-nav_order: 6
+chapter: 5
+order: 6
+toc: true
 ---
 
 # Chapter 5: The Pragmatic Solution

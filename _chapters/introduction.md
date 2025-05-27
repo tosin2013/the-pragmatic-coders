@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: post
 title: Introduction
-nav_order: 1
+chapter: 0
+order: 1
+toc: true
 ---
 
 # Introduction
