@@ -26,3 +26,9 @@ toc:
   - title: Chapter 8 - A New Paradigm
     url: /chapters/chapter-08/
     source: _chapters/chapter-08.md
+  - title: Practical Guide - Implementing Methodological Pragmatism
+    url: /chapters/practical-guide/
+    source: _chapters/09-practical-guide.md
+  - title: Summoning Sophia - The Complete Prompt
+    url: /chapters/summoning-sophia/
+    source: _chapters/10-summoning-sophia.md
